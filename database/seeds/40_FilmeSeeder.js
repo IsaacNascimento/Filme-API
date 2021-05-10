@@ -18,12 +18,12 @@ const Filme = use('App/Models/Filme')
 class FilmeSeeder {
   async run () {
     await Filme.createMany([
-      {id: 1,nome: 'Titanic',      },
-      {id: 2,nome: 'Os Infiltrados'},
-      {id: 3,nome: 'Gran Torino'   },
-      {id: 4,nome: 'The Rock'      },
-      {id: 5,nome: 'Pulp Fiction'  },
-      {id: 6,nome: 'Kill Bill'     },
+      {id: 1,nome: 'Titanic'       , descricao: 'Romande dramático'},
+      {id: 2,nome: 'Os Infiltrados', descricao: ''},
+      {id: 3,nome: 'Gran Torino'   , descricao: ''},
+      {id: 4,nome: 'The Rock'      , descricao: 'Filme de luta'},
+      {id: 5,nome: 'Pulp Fiction'  , descricao: ''},
+      {id: 6,nome: 'Kill Bill'     , descricao: ''},
     ])
 
   }
