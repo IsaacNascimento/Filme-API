@@ -9,7 +9,7 @@ class ElencosPapeisSchema extends Schema {
       table.increments()
       table.integer('filme_id').references('id').inTable('filmes').unsigned().notNullable()
       table.integer('elenco_id').references('id').inTable('elencos').unsigned().notNullable()
-      table.integer('papel_id').references('id').inTable('papels').unsigned().notNullable()
+      table.integer('papel_id').references('id').inTable('papeis').unsigned().notNullable()
       table.timestamps()
     })
   }

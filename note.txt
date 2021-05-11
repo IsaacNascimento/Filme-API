@@ -1,0 +1,35 @@
+elenco_papel
+ 
+papel 1 = ator           |  elenco 1 = Stalone 
+      2 = diretor        |  elenco 2 = Tarantino
+
+
+
+id   | papel_id  | elenco_id | filme_id
+1    |   1       |    1      |  1
+2    |   2       |    1      |  1
+3    |   1       |    2      |
+4    |   2       |    2      |
+_______________________________________
+
+ELENCO_PAPEL_FILME
+
+
+id   |  filme_id
+1    |    1
+2    |    1
+3    |  
+4    |
+
+
+
+
+________________________________________________________
+
+FILME
+
+id   |  nome           |  descricao |  papel_elenco_id
+1    |  The Rocky      |    bláblá  |    1
+2    |   2             |    1       |
+3    |   1             |    2       |
+4    |   2             |    2       |

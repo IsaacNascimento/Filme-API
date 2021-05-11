@@ -19,3 +19,13 @@ const Route = use('Route')
 Route.get('/', () => {
   return { greeting: 'Hello world in JSON' }
 })
+
+Route.resource('/categorias', 'CategoriaController').apiOnly()
+Route.resource('/elencos', 'ElencoController').apiOnly()
+Route.resource('/papeis', 'PapelController').apiOnly()
+Route.resource('/filmes', 'FilmeController').apiOnly()
+Route.resource('/clientes', 'ClienteController').apiOnly()
+Route.resource('/elencopapeis', 'ElencosPapeiController').apiOnly()
+Route.resource('/filmecategorias', 'FilmesCategoriaController').apiOnly()
+Route.resource('/filmeclientes', 'FilmesClienteController').apiOnly()
+
