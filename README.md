@@ -1,6 +1,7 @@
 # Projeto em grupo ultlizando o framework Adonis - NodeJs
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+Trata-se de um projeto de backend, na qual terá a temática de filme. 
+  
 
 1. Bodyparser
 2. Authentication
