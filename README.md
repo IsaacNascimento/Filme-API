@@ -1,4 +1,4 @@
-# Adonis API application
+# Projeto em grupo ultlizando o framework Adonis - NodeJs
 
 This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
 
