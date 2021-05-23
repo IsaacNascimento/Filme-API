@@ -8,7 +8,7 @@ class ElencoSchema extends Schema {
     this.create('elencos', (table) => {
       table.increments()
       table.string('nome', 100).notNullable()
-      table.string('biografia', 1000).notNullable()
+      table.string('biografia', 299).notNullable()
       table.timestamps()
     })
   }

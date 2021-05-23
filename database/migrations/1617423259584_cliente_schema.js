@@ -9,8 +9,8 @@ class ClienteSchema extends Schema {
       table.increments()
       table.string('nome', 100).notNullable()
       table.string('email', 100).notNullable()
-      table.string('senha', 10).notNullable()
-      table.string('telefone', 10)
+      table.string('senha', 50).notNullable()
+      table.string('telefone', 15)
       table.timestamps()
     })
   }
