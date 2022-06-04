@@ -7,7 +7,7 @@ class Filme extends ValidatorAbstract {
     return {
       // validation rules
       nome: 'required|max:100|min:2',
-      descricao: 'required|max:200|min:5',
+      // descricao: 'required|max:200|min:5',
     }
   }
 }

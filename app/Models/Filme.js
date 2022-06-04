@@ -9,6 +9,7 @@ class Filme extends Model {
         return [
             'nome', 
             'descricao',
+            'ulrFoto'
         ]
     }
 

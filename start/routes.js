@@ -13,19 +13,25 @@
 |
 */
 
+// import { imageUploaderController } from '../app/Controllers/Http/FilmeController'
+
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
+
+// Route.post('/filmes/image-upload', 'FilmesController', imageUploaderController)     
+
 Route.get('/', () => {
-  return { greeting: 'Hello world in JSON' }
+  return { greeting: 'Welcome to my Public API about movies 😊' }
 })
 
-Route.post('/token', 'UserController.token')
+// Route.post('/token', 'UserController.token')
 Route.resource('/users', 'UserController')
      .apiOnly()
      .validator(new Map([
        [['store', 'update'], 'User'], 
      ]))
+
 
 Route.group(()=> {
 
@@ -77,7 +83,8 @@ Route.group(()=> {
          [['store', 'update'], 'FilmesCliente'], 
        ]))
 
-}).middleware('auth')
+})
+// .middleware('auth')
 
 
 
